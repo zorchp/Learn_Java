@@ -34,11 +34,8 @@ java {
 
 application {
     // Define the main class for the application.
-    // mainClass = 'circlerectangle.App'
-    // mainClass = 'circlerectangle.Main'
-    // mainClass = 'circlerectangle.PolymorphismDemo'
-    // mainClass = 'circlerectangle.CastingDemo'
-    mainClass = 'circlerectangle.TestArrayList'
+    // mainClass = 'abstractgeometric.Main'
+    mainClass = 'abstractgeometric.SortRectangles'
 }
 
 tasks.named('test') {
