@@ -1,6 +1,15 @@
 import java.util.ArrayList;
 
-public class MyStack {
+public class TestMyStack {
+    public static void main(String[] args) {
+        MyStack s1 = new MyStack();
+        s1.push("123");
+        s1.push(12);
+        // 类型不安全, 因为原始类型为 Object
+    }
+}
+
+class MyStack {
     private ArrayList<Object> list = new ArrayList<>();
 
     public boolean isEmpty() {
@@ -17,7 +26,7 @@ public class MyStack {
 
     public Object pop() {
         Object o = list.get(getSize() - 1);
-        list.remove(getsize() - 1);
+        list.remove(getSize() - 1);
         return o;
     }
 
