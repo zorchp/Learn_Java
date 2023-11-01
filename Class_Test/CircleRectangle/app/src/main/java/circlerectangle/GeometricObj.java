@@ -1,4 +1,4 @@
-// package circlerectangle;
+package circlerectangle;
 
 import java.util.Date;
 

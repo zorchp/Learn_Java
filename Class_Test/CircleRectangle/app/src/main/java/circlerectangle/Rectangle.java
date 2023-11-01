@@ -1,4 +1,4 @@
-// package circlerectangle;
+package circlerectangle;
 
 public class Rectangle extends GeometricObj {
     private double width, height;

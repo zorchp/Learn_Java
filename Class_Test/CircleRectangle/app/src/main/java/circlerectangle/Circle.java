@@ -1,3 +1,4 @@
+package circlerectangle;
 
 public class Circle extends GeometricObj {
     private double radius;

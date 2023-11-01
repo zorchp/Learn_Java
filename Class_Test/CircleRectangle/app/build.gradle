@@ -32,22 +32,11 @@ java {
     }
 }
 
-sourceSets {
-    main {
-        java {
-            srcDirs = ['src/main/java/circlerectangle']
-        }
-    }
-    test {
-        java {
-            srcDirs = ['src/test/java/circlerectangle']
-        }
-    }
-}
-
 application {
     // Define the main class for the application.
-    mainClass = 'Main'
+    // mainClass = 'circlerectangle.App'
+    // mainClass = 'circlerectangle.Main'
+    mainClass = 'circlerectangle.PolymorphismDemo'
 }
 
 tasks.named('test') {
