@@ -2,7 +2,7 @@ BasedOnStyle: Google
 ---
 Language: Java
 IndentWidth: 4
-ColumnLimit: 100
+ColumnLimit: 80
 BreakStringLiterals: true
 BreakAfterJavaFieldAnnotations: false
 AllowShortFunctionsOnASingleLine: false

@@ -14,9 +14,11 @@ public class CastingDemo {
     public static void displayObj(Object obj) {
         if (obj instanceof Circle) {
             System.out.println("circle area is " + ((Circle) obj).getArea());
-            System.out.println("circle diameter is " + ((Circle) obj).getDiameter());
+            System.out.println(
+                "circle diameter is " + ((Circle) obj).getDiameter());
         } else if (obj instanceof Rectangle) {
-            System.out.println("Rectangle area is " + ((Rectangle) obj).getArea());
+            System.out.println(
+                "Rectangle area is " + ((Rectangle) obj).getArea());
         }
     }
 }
